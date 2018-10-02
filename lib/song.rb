@@ -6,6 +6,4 @@ class Song
     @songs = []
   end
 
-  def add_song(song)
-    song = Song.new(name)
 end
