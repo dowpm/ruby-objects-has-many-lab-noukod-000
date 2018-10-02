@@ -10,9 +10,9 @@ class Song
     @@all
   end
 
-  def author_name
-    return nil if author.class != Author
-    author.name
+  def artist_name
+    return nil if artist.class != Artist
+    artist.name
   end
 
 end
