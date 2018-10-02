@@ -12,7 +12,7 @@ class Post
   end
 
   def author_name
-    return nil if @author.class != Author
+    return nil if author.class != Author
     author.name
   end
 
