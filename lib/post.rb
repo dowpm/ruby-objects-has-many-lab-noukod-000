@@ -7,4 +7,8 @@ class Post
     @@all << self
   end
 
+  def class_variable_get
+    @@all
+  end
+
 end
